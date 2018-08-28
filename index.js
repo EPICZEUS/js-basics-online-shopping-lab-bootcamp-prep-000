@@ -40,7 +40,7 @@ function total() {
 }
 
 function removeFromCart(item) {
-  // write your code here
+  const itemIndex = cart.findIndex()
 }
 
 function placeOrder(cardNumber) {
