@@ -15,7 +15,8 @@ function addToCart(item) {
 }
 
 function viewCart() {
-  // write your code here
+  let out = "In your cart, you have";
+  
 }
 
 function total() {
