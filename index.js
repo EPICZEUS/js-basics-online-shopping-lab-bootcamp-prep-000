@@ -18,6 +18,14 @@ function viewCart() {
   let out = "In your cart, you have";
   if (cart.length === 0) {
     out = "Your shopping cart is empty.";
+  } else {
+    for (let i = 0; i < cart.length; i++) {
+      if (i !== 0 && i === cart.length - 1) {
+        out += ` and ${cart[i].itemName} at $${cart[i].itemPrice}`
+      } else {
+        out += ` ${cart[i].itemName} at $${cart[i].itemPrice},`
+      }
+    }
   }
 }
 
