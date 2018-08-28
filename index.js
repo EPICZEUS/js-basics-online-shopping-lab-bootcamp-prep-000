@@ -40,7 +40,7 @@ function total() {
 }
 
 function removeFromCart(item) {
-  const itemIndex = cart.findIndex()
+  const itemIndex = cart.findIndex(a => a.itemName === item);
 }
 
 function placeOrder(cardNumber) {
