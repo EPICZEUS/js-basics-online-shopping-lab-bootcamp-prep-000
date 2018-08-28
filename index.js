@@ -41,6 +41,11 @@ function total() {
 
 function removeFromCart(item) {
   const itemIndex = cart.findIndex(a => a.itemName === item);
+  
+  if (itemIndex > -1) {
+    cart.splice(i, 1);
+    return cart;
+  }
 }
 
 function placeOrder(cardNumber) {
