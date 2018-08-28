@@ -26,6 +26,7 @@ function viewCart() {
         out += ` ${cart[i].itemName} at $${cart[i].itemPrice},`;
       }
     }
+    out += "."
   }
 }
 
