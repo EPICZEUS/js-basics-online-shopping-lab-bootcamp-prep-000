@@ -28,6 +28,7 @@ function viewCart() {
     }
     out += "."
   }
+  return out;
 }
 
 function total() {
